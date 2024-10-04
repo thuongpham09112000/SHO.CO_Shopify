@@ -1,8 +1,8 @@
 <h2
   style="
     text-align: {{ section.settings.title_alignment }};
-    width: {{ section.settings.size.width }};
-    height: {{ section.settings.size.height }}
+    width: {{ section.settings.width }};
+    height: {{ section.settings.height }}
   "
 >
   {{ section.settings.title }}
@@ -40,18 +40,17 @@
       "default": "center"
     },
     {
-        "type": "text",
-        "id": "width",
-        "label": "Width",
-        "default": "100%"
-      },
+      "type": "text",
+      "id": "width",
+      "label": "Width",
+      "default": "100%"
+    },
     {
-    "type": "text",
-    "id": "height",
-    "label": "Height",
-    "default": "auto"
+      "type": "text",
+      "id": "height",
+      "label": "Height",
+      "default": "auto"
     }
-      
   ],
 
   "presets": [
