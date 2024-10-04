@@ -41,8 +41,8 @@
         "title": "Sign up and get 20% off to your first order. Sign Up Now",
         "title_alignment": "center",
         "font_size": 14,
-        "body_text": "#ffffff",
-        "background": "#000000"
+        "color": "#000000",
+        "singup_link": ""
       }
     },
     "t_announcement_bar_KM7Kfa": {
@@ -51,8 +51,8 @@
         "title": "Your Announcement",
         "title_alignment": "center",
         "font_size": 14,
-        "body_text": "#FFFFFF",
-        "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)"
+        "color": "#df4242",
+        "singup_link": ""
       }
     },
     "header": {
