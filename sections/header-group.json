@@ -40,8 +40,7 @@
       "settings": {
         "title": "Sign up and get 20% off to your first order. Sign Up Now",
         "title_alignment": "center",
-        "width": "100%",
-        "height": "auto"
+        "font_size": 18
       }
     },
     "header": {
