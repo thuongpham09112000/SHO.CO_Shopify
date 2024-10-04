@@ -35,6 +35,11 @@
         "enable_language_selector": false
       }
     },
+    "t_announcement_bar_zhDKcb": {
+      "type": "t-announcement-bar",
+      "settings": {
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -57,6 +62,7 @@
   },
   "order": [
     "announcement_bar_88kVeU",
+    "t_announcement_bar_zhDKcb",
     "header"
   ]
 }
