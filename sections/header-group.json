@@ -38,7 +38,7 @@
     "t_announcement_bar_dQttbf": {
       "type": "t-announcement-bar",
       "settings": {
-        "title": "Sign up and get 20% off to your first order. Sign Up Now",
+        "title": "<p>Sign up and get 20% off to your first order. <em>Sign Up Now</em></p>",
         "title_alignment": "center",
         "font_size": 14,
         "color": "#000000",
@@ -48,7 +48,7 @@
     "t_announcement_bar_KM7Kfa": {
       "type": "t-announcement-bar",
       "settings": {
-        "title": "Your Announcement",
+        "title": "<p>Your Announcement</p>",
         "title_alignment": "center",
         "font_size": 14,
         "color": "#df4242",
