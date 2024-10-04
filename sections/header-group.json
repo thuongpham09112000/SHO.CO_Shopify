@@ -38,9 +38,9 @@
     "t_announcement_bar_zhDKcb": {
       "type": "t-announcement-bar",
       "settings": {
-        "title": "Sign up and get 20% off to your first order. Sign Up Now",
+        "title": "",
         "title_alignment": "center",
-        "font_size": 18
+        "font_size": 14
       }
     },
     "header": {
