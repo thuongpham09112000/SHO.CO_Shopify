@@ -1,42 +1,42 @@
-<h2>{{ section.settings.title }}</h2>
+<h2 style="text-align: {{ section.settings.title_alignment }}">{{ section.settings.title }}</h2>
 
 {% schema %}
 {
-    "name": "t-announcement-bar",
-    "tag": "section",
-    "class": "my-wrapper-class",
-    "settings":[
+  "name": "t-announcement-bar",
+  "tag": "section",
+  "class": "my-wrapper-class",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Title alignment",
+      "options": [
         {
-            "type": "text",
-            "id": "title",
-            "label": "Title",
+          "value": "left",
+          "label": "Left"
         },
         {
-            "type": "select",
-            "id": "title_alignment",
-            "label": "Title alignment",
-            "options": [
-              {
-                "value": "left",
-                "label": "Left"
-              },
-              {
-                "value": "middle",
-                "label": "Middle"
-              },
-              {
-                "value": "right",
-                "label": ""
-              }
-            ],
-            "default": "middle"
-          }
-    ],
-
-    "presets": [
+          "value": "center",
+          "label": "Center"
+        },
         {
-            "name": "t-announcement-bar"
+          "value": "right",
+          "label": "Right"
         }
-    ]
+      ],
+      "default": "center"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "t-announcement-bar"
+    }
+  ]
 }
 {% endschema %}
