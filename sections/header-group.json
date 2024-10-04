@@ -35,12 +35,12 @@
         "enable_language_selector": false
       }
     },
-    "t_announcement_bar_zhDKcb": {
+    "t_announcement_bar_DHrHpJ": {
       "type": "t-announcement-bar",
       "settings": {
-        "title": "",
+        "title": "Sign up and get 20% off to your first order. Sign Up Now",
         "title_alignment": "center",
-        "font_size": 14
+        "font_size": 16
       }
     },
     "header": {
@@ -65,7 +65,7 @@
   },
   "order": [
     "announcement_bar_88kVeU",
-    "t_announcement_bar_zhDKcb",
+    "t_announcement_bar_DHrHpJ",
     "header"
   ]
 }
