@@ -41,8 +41,18 @@
         "title": "Sign up and get 20% off to your first order. Sign Up Now",
         "title_alignment": "center",
         "font_size": 14,
-        "body_text": "#FFFFFF",
+        "body_text": "#ffffff",
         "background": "#000000"
+      }
+    },
+    "t_announcement_bar_KM7Kfa": {
+      "type": "t-announcement-bar",
+      "settings": {
+        "title": "Your Announcement",
+        "title_alignment": "center",
+        "font_size": 14,
+        "body_text": "#FFFFFF",
+        "background": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 100%)"
       }
     },
     "header": {
@@ -68,6 +78,7 @@
   "order": [
     "announcement_bar_88kVeU",
     "t_announcement_bar_dQttbf",
+    "t_announcement_bar_KM7Kfa",
     "header"
   ]
 }
