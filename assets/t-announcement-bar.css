@@ -1,0 +1,22 @@
+.t-announcement {
+  background-color: #000000;
+  padding: 9px 0;
+  text-align: var(--annc-bar-text-align);
+}
+
+.t-announcement a,
+.t-announcement p {
+  color: var(--annc-bar-color);
+  font-size: var(--annc-bar-font-size);
+  display: inline;
+}
+
+.t-announcement a {
+  font-weight: 500;
+}
+
+.t-announcement p {
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #000;
+  font-weight: 400;
+}

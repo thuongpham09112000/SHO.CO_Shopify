@@ -31,7 +31,7 @@
           "settings": {
             "button_label_1": "Shop Now",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "shopify://collections/all",
             "button_style_secondary_2": false
@@ -44,7 +44,6 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
@@ -55,6 +54,55 @@
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "t_section_banner_wgJKph": {
+      "type": "t-section-banner",
+      "blocks": {
+        "heading_8xwcGE": {
+          "type": "heading",
+          "settings": {
+            "title": "<p><strong>FIND CLOTHES THAT MATCHES YOUR STYLE</strong></p>",
+            "title_alignment": "left",
+            "font_size": 64,
+            "color": "#000000"
+          }
+        },
+        "text_F6ibMU": {
+          "type": "text",
+          "settings": {
+            "subtitle": "Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.",
+            "font_size": 16
+          }
+        },
+        "button_zPgLH6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "font_size": 16,
+            "button_link": ""
+          }
+        },
+        "stats_wTDBWi": {
+          "type": "stats",
+          "settings": {
+            "first_stats_number": 200,
+            "first_stats_lable": "International Brands",
+            "second_stats_number": 2000,
+            "second_stats_lable": "High-Quality Products",
+            "third_stats_number": 30000,
+            "third_stats_lable": "Happy Customers"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8xwcGE",
+        "text_F6ibMU",
+        "button_zPgLH6",
+        "stats_wTDBWi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/banner.png"
       }
     },
     "rich_text_63XxKE": {
@@ -245,6 +293,7 @@
   },
   "order": [
     "image_banner",
+    "t_section_banner_wgJKph",
     "rich_text_63XxKE",
     "featured_collection",
     "featured_collection_GpjhNx",

@@ -1,0 +1,94 @@
+{{ 't-announcement-bar.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  :root {
+    --annc-bar-text-align: {{ section.settings.title_alignment }};
+    --annc-bar-color: {{ section.settings.color }};
+    --annc-bar-font-size:{{ section.settings.font_size }}px;
+  }
+{% endstyle %}
+
+<div class="announcement">
+  <p>
+    {{ section.settings.title | strip_html }}
+  </p>
+  <a href="{{ section.settings.singup_link }}">
+    {{ section.settings.title_link | strip_html }}
+  </a>
+</div>
+
+{% schema %}
+{
+  "name": "t-announcement-bar",
+  "tag": "section",
+  "class": "t-announcement",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "title_link",
+      "label": "Title link"
+    },
+
+    {
+      "type": "url",
+      "id": "singup_link",
+      "label": "Singup link"
+    },
+
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Title alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size",
+      "default": 14
+    },
+
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Text color",
+      "default": "#FFFFFF"
+    },
+
+    { "type": "font_picker", "label": "Font setting", "id": "font_setting", "default": "assistant_n4" }
+  ],
+
+  "presets": [
+    {
+      "name": "t-announcement-bar",
+      "category": "Announcement Bar",
+      "settings": {
+        "title": "<h2>Your Announcement</h2>",
+      }
+    }
+  ]
+}
+{% endschema %}

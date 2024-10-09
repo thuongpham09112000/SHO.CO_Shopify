@@ -11,35 +11,23 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement_bar_88kVeU": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_3Kx4Gq": {
-          "type": "announcement",
-          "settings": {
-            "text": "Sign up and get 20% off to your first order. Sign Up Now",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_3Kx4Gq"
-      ],
+    "t_announcement_bar_dc8iym": {
+      "type": "t-announcement-bar",
       "settings": {
-        "color_scheme": "scheme-4",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "title": "<p>Sign up and get 20% off to your first order.</p>",
+        "title_link": "<p>Sign Up Now</p>",
+        "singup_link": "",
+        "title_alignment": "center",
+        "font_size": 14,
+        "color": "#ffffff",
+        "font_setting": "assistant_n4"
       }
     },
     "header": {
       "type": "header",
       "settings": {
         "logo_position": "middle-left",
-        "menu": "menu-customize",
+        "menu": "",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
@@ -56,7 +44,7 @@
     }
   },
   "order": [
-    "announcement_bar_88kVeU",
+    "t_announcement_bar_dc8iym",
     "header"
   ]
 }
