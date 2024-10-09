@@ -23,6 +23,28 @@
         "font_setting": "assistant_n4"
       }
     },
+    "t_announcement_bar_dQttbf": {
+      "type": "t-announcement-bar",
+      "settings": {
+        "title": "<p>Sign up and get 20% off to your first order. <em>Sign Up Now</em></p>",
+        "title_alignment": "center",
+        "font_size": 14,
+        "color": "#ffffff",
+        "singup_link": "",
+        "color_background": "#000000"
+      }
+    },
+    "t_announcement_bar_KM7Kfa": {
+      "type": "t-announcement-bar",
+      "settings": {
+        "title": "<p>Your Announcement</p>",
+        "title_alignment": "center",
+        "font_size": 14,
+        "color": "#df4242",
+        "singup_link": "",
+        "color_background": "#000000"
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -44,7 +66,13 @@
     }
   },
   "order": [
+<<<<<<< HEAD
     "t_announcement_bar_dc8iym",
+=======
+    "announcement_bar_88kVeU",
+    "t_announcement_bar_dQttbf",
+    "t_announcement_bar_KM7Kfa",
+>>>>>>> 4ae6e64a032450d84e55fa5e3fc6a2ed741ab9e7
     "header"
   ]
 }
