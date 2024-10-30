@@ -22,3 +22,28 @@
 .t-brand .list-brand-small {
   display: none;
 }
+
+.t-brand {
+  min-height: 122px;
+  width: 100%;
+  background-color: #000;
+}
+
+.t-brand .container img {
+  max-height: 38px;
+  width: 100%;
+  margin: 0;
+}
+
+.t-brand .container .text-center {
+  margin: 0;
+}
+
+.t-brand .list-brand {
+  height: 100%;
+  gap: 106px;
+}
+
+.t-brand .list-brand-small {
+  display: none;
+}
