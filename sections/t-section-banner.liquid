@@ -2,13 +2,15 @@
 
 {% style %}
   :root {
+    --banner-text-align: {{ section.settings.title_alignment }};
     {% for block in section.blocks %}
       {% if block.type == 'heading' %}      
-        --banner-text-align: {{ block.settings.title_alignment }};
         --banner-color: {{ block.settings.color }};
         --banner-title-font-size:{{ block.settings.font_size }}px;
       {% elsif block.type == 'text' %}
         --banner-subtitle-font-size: {{ block.settings.font_size }}px;
+      {% elsif block.type == 'button' %}
+      --banner-button-font-size: {{ block.settings.font_size }}px;
       {% endif %}
     {% endfor %}
   }
@@ -19,7 +21,7 @@
     {% for block in section.blocks %}
       {% if block.type == 'heading' %}
         <h1>
-          {{ block.settings.title | strip_html }}
+            {{ block.settings.title | strip_html }}
         </h1>
       {% elsif block.type == 'text' %}
         <div class="sub-title-banner">
@@ -31,21 +33,21 @@
         <div class="stats">
           {% if block.settings.first_stats_number %}
             <div class="stat-item">
-              <h3>{{ block.settings.first_stats_number }}+</h3>
+              <h3>{{ block.settings.first_stats_number }}</h3>
               <span>{{ block.settings.first_stats_lable }}</span>
             </div>
           {% endif %}
           {% if block.settings.second_stats_number %}
             <div class="border"> </div>
             <div class="stat-item">
-              <h3>{{ block.settings.second_stats_number }}+</h3>
+              <h3>{{ block.settings.second_stats_number}}</h3>
               <span>{{ block.settings.second_stats_lable }}</span>
             </div>
           {% endif %}
           {% if block.settings.third_stats_number %}
             <div class="border"> </div>
             <div class="stat-item">
-              <h3>{{ block.settings.third_stats_number }}+</h3>
+              <h3>{{ block.settings.third_stats_number }}</h3>
               <span>{{ block.settings.third_stats_lable }}</span>
             </div>
           {% endif %}
@@ -75,13 +77,11 @@
 <div class="img-banner">
   {% if section.settings.image %}
     {{ section.settings.image | image_url: width: 1500 | image_tag }}
-  {% else %}
   {% endif %}
 </div>
-
 {% schema %}
 {
-  "name": "t-banner",
+  "name": "Banner",
   "tag": "section",
   "class": "t-banner",
   "settings": [
@@ -89,6 +89,26 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image",
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Align title",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
     }
   ],
 
@@ -102,26 +122,6 @@
           "id": "title",
           "label": "Title",
           "default": "<h1>Your title banner</h1>"
-        },
-        {
-          "type": "select",
-          "id": "title_alignment",
-          "label": "Align title",
-          "options": [
-            {
-              "value": "left",
-              "label": "Left"
-            },
-            {
-              "value": "center",
-              "label": "Center"
-            },
-            {
-              "value": "right",
-              "label": "Right"
-            }
-          ],
-          "default": "center"
         },
         {
           "type": "range",
@@ -144,7 +144,7 @@
     },
     {
       "type": "text",
-      "name": "sub-title",
+      "name": "Subtitle banner",
       "settings": [
         {
           "type": "text",
@@ -166,12 +166,12 @@
     },
     {
       "type": "button",
-      "name": "button-banner",
+      "name": "Button banner",
       "settings": [
         {
           "type": "text",
           "id": "button_label",
-          "label": "button label",
+          "label": "Button label",
           "default": "Your button label"
         },
         {
@@ -193,12 +193,12 @@
     },
     {
       "type": "stats",
-      "name": "stats-banner",
+      "name": "Stats banner",
       "settings": [
         {
-          "type": "number",
+          "type": "text",
           "id": "first_stats_number",
-          "label": "First stat Number"
+          "label": "First stat number"
         },
         {
           "type": "text",
@@ -206,9 +206,9 @@
           "label": "First stat lable"
         },
         {
-          "type": "number",
+          "type": "text",
           "id": "second_stats_number",
-          "label": "Second stat Number"
+          "label": "Second stat number"
         },
         {
           "type": "text",
@@ -216,9 +216,9 @@
           "label": "Second stat lable"
         },
         {
-          "type": "number",
+          "type": "text",
           "id": "third_stats_number",
-          "label": "Third stat Number"
+          "label": "Third stat number"
         },
         {
           "type": "text",
@@ -231,7 +231,7 @@
 
   "presets": [
     {
-      "name": "t-banner",
+      "name": "t-Banner",
       "category": "Banner",
       "settings": {
       }
