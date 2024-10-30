@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .t-banner {
   position: relative;
   min-height: 663px;
@@ -124,3 +125,131 @@
   margin-bottom: 0;
   white-space: nowrap;
 }
+=======
+.t-banner {
+  position: relative;
+  min-height: 663px;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.t-banner .container {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  padding: 0 100px;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: var(--banner-text-align);
+  align-items: center;
+}
+
+.t-banner .content-banner {
+  height: fit-content;
+  max-width: 50%;
+  padding-top: 103px;
+  padding-bottom: 116px;
+}
+
+.t-banner .img-banner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.t-banner .img-banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.t-banner h1 {
+  color: var(--banner-color);
+  font-size: var(--banner-title-font-size);
+  font-family: "Integral-CF-Bold";
+  font-weight: 700;
+  line-height: 64px;
+  text-align: var(--banner-text-align);
+}
+
+.t-banner .sub-title-banner {
+  margin-top: 32px;
+  font-size: var(--banner-subtitle-font-size);
+}
+
+.t-banner .button-banner {
+  width: 210px;
+  margin-top: 32px;
+  padding: 16px 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 1;
+  border-radius: 62px;
+  background: #000;
+  text-decoration: none;
+}
+
+/* .t-banner .button-banner:hover {
+    background-color: var();
+    color: var();
+    font-weight: bold;
+    border: 2px solid var();
+} */
+
+.t-banner .button-banner span {
+  color: #fff;
+  font-size: var(--banner-button-font-size);
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.t-banner .stats {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+  gap: 32px;
+}
+
+.t-banner .stats .border {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 2px;
+  height: auto;
+}
+
+.t-banner .stats .stat-item {
+  text-align: left;
+  height: fit-content;
+}
+
+.t-banner .stats .stat-item h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.t-banner .stats .stat-item h3::after {
+  content: "+";
+}
+.t-banner .stats .stat-item span {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+>>>>>>> e081d86 (update-v1)
