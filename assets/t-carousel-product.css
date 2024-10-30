@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 a {
   color: #000;
   text-decoration: none;
@@ -146,3 +147,153 @@ a {
   line-height: 22px;
   font-weight: 500;
 }
+=======
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+*:focus-visible {
+  box-shadow: none;
+}
+
+.t-carousel-product {
+  padding-top: 4.5rem;
+  padding-bottom: 4rem;
+}
+
+#new-arrivals {
+  padding-top: 3.44rem;
+}
+
+.section-titles h1 {
+  font-family: "Integral-CF-Bold";
+  font-size: 48px;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.card > * {
+  width: 100%;
+}
+
+.card {
+  border: none;
+  background-color: var(--background-color);
+  padding: 0 10px;
+  padding-bottom: 36px;
+  width: 100%;
+}
+
+.card > a > img {
+  width: 100%;
+  height: inherit;
+  object-fit: contain;
+}
+
+.card-body {
+  padding-top: 1rem;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.card-body > * {
+  width: 100%;
+}
+
+.card-body .card-text {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.card-body .card-price {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 24px;
+  line-height: 32.4px;
+  gap: 10px;
+  align-items: center;
+}
+
+.card-body .card-price p {
+  width: fit-content;
+  height: fit-content;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-style: normal;
+}
+
+.card-body .card-price p:nth-child(2) {
+  opacity: 0.4;
+  text-decoration-line: line-through;
+  text-decoration-thickness: 1px;
+}
+
+.card-body .card-price span {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 28px;
+  padding: 6px 14px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: rgba(255, 51, 51, 1);
+  border-radius: 62px;
+  background-color: rgba(255, 51, 51, 0.1);
+  border: none;
+}
+
+.evaluate {
+  height: 100%;
+  margin: 8.26px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.33rem;
+}
+
+.evaluate .svg-wrapper {
+  height: 21px;
+  width: auto;
+  object-fit: contain;
+}
+
+.evaluate span {
+  font-size: 14px;
+}
+
+.evaluate span:nth-child(6) {
+  padding-left: 0.48rem;
+  color: var(--text-color);
+}
+
+.evaluate span:last-child {
+  padding: 0;
+  color: var(--matte-black-secondary-color);
+  margin-left: -4.44px;
+}
+
+.see-all-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.see-all-button > a {
+  height: 52px;
+  width: 218px;
+  padding: 16px 54px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 62px;
+}
+
+.see-all-button > a > span {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 22px;
+  font-weight: 500;
+}
+>>>>>>> 2ba626432e35b5522fc32a67fe0165ce9ef61f1d
