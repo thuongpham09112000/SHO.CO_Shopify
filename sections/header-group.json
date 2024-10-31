@@ -46,8 +46,8 @@
     "t_header_9FiVdE": {
       "type": "t-header",
       "settings": {
-        "logo_alt_text": "My Store",
-        "main_menu": "t-menu",
+        "logo_alt_text": "SHO.CO",
+        "main_menu": "t-nav",
         "link_icon": ""
       }
     }
