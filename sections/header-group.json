@@ -47,7 +47,7 @@
       "type": "t-header",
       "settings": {
         "logo_alt_text": "SHO.CO",
-        "main_menu": "t-nav",
+        "main_menu": "t-menu",
         "link_icon": ""
       }
     }
