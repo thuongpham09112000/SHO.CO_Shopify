@@ -2,6 +2,8 @@
   min-height: 122px;
   width: 100%;
   background-color: #000;
+  display: flex;
+  align-items: center;
 }
 
 .t-brand .container img {

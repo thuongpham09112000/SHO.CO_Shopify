@@ -32,7 +32,7 @@
           "settings": {
             "button_label": "Shop now",
             "font_size": 16,
-            "button_link": ""
+            "button_link": "shopify://collections/all"
           }
         },
         "stats_wTDBWi": {
@@ -56,6 +56,11 @@
       "settings": {
         "image": "shopify://shop_images/banner.png",
         "title_alignment": "left"
+      }
+    },
+    "t_brand_W4qVtg": {
+      "type": "t-brand",
+      "settings": {
       }
     },
     "t_carousel_product_9XMd7F": {
@@ -134,6 +139,7 @@
   },
   "order": [
     "t_section_banner_wgJKph",
+    "t_brand_W4qVtg",
     "t_carousel_product_9XMd7F",
     "t_carousel_product_h67egK",
     "multicolumn_PGxbXX"
