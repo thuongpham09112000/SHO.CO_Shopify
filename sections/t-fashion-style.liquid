@@ -1,0 +1,110 @@
+{{ 't-fashion-style.css' | asset_url | stylesheet_tag}}
+
+<div class="container">
+  <div class="bg-browse-by-style">
+    <div class="section-titles">
+      <h1>{{ section.settings.title_Style | strip_html }}</h1>
+    </div>
+    <div class="choose-style-primary">
+      <div class="choose-style-item">
+        <div class="img-style-1">
+          <a href="#">{{ section.settings.style_image_1 | image_url: height: 289 | image_tag }}</a>
+        </div>
+        <div class="img-style-2">
+          <a href="#">{{ section.settings.style_image_2 | image_url: height: 289 | image_tag }}</a>
+        </div>
+      </div>
+      <div class="choose-style-item">
+        <div class="img-style-3">
+          <a href="#">{{ section.settings.style_image_3 | image_url: height: 289 | image_tag }}</a>
+        </div>
+        <div class="img-style-4">
+          <a href="#">{{ section.settings.style_image_4 | image_url: height: 289 | image_tag }}</a>
+        </div>
+      </div>
+    </div>
+    <div class="choose-style-secondary">
+      <div class="choose-style-item">
+        <div class="img-style-1">
+          <a href="#">{{ section.settings.style_image_5 | image_url: height: 289 | image_tag }}</a>
+        </div>
+        <div class="img-style-2">
+          <a href="#">{{ section.settings.style_image_6 | image_url: height: 289 | image_tag }}</a>
+        </div>
+      </div>
+      <div class="choose-style-item">
+        <div class="img-style-3">
+          <a href="#">{{ section.settings.style_image_7 | image_url: height: 289 | image_tag }}</a>
+        </div>
+        <div class="img-style-4">
+          <a href="#">{{ section.settings.style_image_8 | image_url: height: 289 | image_tag }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% comment %} <section class="browse-by-style">
+</section> {% endcomment %}
+{% schema %}
+{
+  "name": "Fashion Style",
+  "tag": "section",
+  "class": "browse-by-style",
+  "settings": [
+    {
+        "type": "richtext",
+        "id": "title_Style",
+        "label": "Title style"
+    },
+    {
+      "type": "image_picker",
+      "id": "style_image_1",
+      "label": "Style Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "style_image_2",
+      "label": "Style Image 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "style_image_3",
+      "label": "Style Image 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "style_image_4",
+      "label": "Style Image 4"
+    },
+    {
+      "type": "image_picker",
+      "id": "style_image_5",
+      "label": "Style Image 5"
+    },
+    {
+      "type": "image_picker",
+      "id": "style_image_6",
+      "label": "Style Image 6"
+    },
+    {
+        "type": "image_picker",
+        "id": "style_image_7",
+        "label": "Style Image 7"
+    },
+    {
+    "type": "image_picker",
+    "id": "style_image_8",
+    "label": "Style Image 8"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t-Fashion-Style",
+      "category": "Fashion style",
+      "settings": {
+        "title_Style": "<h2>Your title</h2>",
+      }
+    }
+  ]
+}
+{% endschema %}

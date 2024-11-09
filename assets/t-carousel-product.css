@@ -21,6 +21,7 @@ a {
   font-size: 48px;
   line-height: normal;
   margin-bottom: 0;
+  text-align: var(--carousel-titlei-algin);
 }
 
 .card > * {
@@ -38,7 +39,10 @@ a {
 .card > a > img {
   width: 100%;
   height: inherit;
+  max-height: 260px;
   object-fit: contain;
+  border-radius: 20px;
+  background: #f0eeed;
 }
 
 .card-body {

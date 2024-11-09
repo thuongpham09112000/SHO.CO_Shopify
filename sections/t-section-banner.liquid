@@ -1,4 +1,5 @@
 {{ 't-section-banner.css' | asset_url | stylesheet_tag }}
+{{ 'reponsive.css' | asset_url | stylesheet_tag }}
 
 {% style %}
   :root {
@@ -54,7 +55,7 @@
         </div>
       {% endif %}
     {% endfor %}
-    {% comment %} <div class="stats-secondary">
+  <div class="stats-secondary">
       <div class="stat-item d-flex justify-content-evenly align-items-center"
         style="height: 100%; width: 100%; margin-bottom: 12px;">
         <div class="stat-item">
@@ -71,7 +72,7 @@
         <h3>30,000+</h3>
         <span>Happy Customers</span>
       </div>
-    </div> {% endcomment %}
+    </div>
   </div>
 </div>
 <div class="img-banner">

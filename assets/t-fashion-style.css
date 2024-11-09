@@ -1,0 +1,50 @@
+.bg-browse-by-style {
+  border-radius: 40px;
+  background: #f0f0f0;
+}
+
+.choose-style-primary {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: inherit;
+  width: 100%;
+  padding: 55px 54px 66px 54px;
+}
+
+.choose-style-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.choose-style-item .img-style-1 {
+  object-fit: contain;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.choose-style-item .img-style-2 {
+  object-fit: contain;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.choose-style-item .img-style-3 {
+  object-fit: contain;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.choose-style-item .img-style-4 {
+  object-fit: contain;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.choose-style-secondary {
+  display: none;
+}
+
+.browse-by-style .section-titles h1 {
+  padding-top: 70px;
+}

@@ -21,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -38,8 +36,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -50,8 +47,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -104,10 +100,920 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "featured_product_gt7hKa": {
+      "type": "featured-product",
+      "blocks": {
+        "text_iEtpJX": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_gxh9eG": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_KEibVc": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_WYq4bR": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_kRJLUi": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_hjcMdG": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_hW44dc": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_iEtpJX",
+        "title_gxh9eG",
+        "price_KEibVc",
+        "variant_picker_WYq4bR",
+        "quantity_selector_kRJLUi",
+        "buy_buttons_hjcMdG",
+        "share_hW44dc"
+      ],
+      "settings": {
+        "product": "t-shirt-with-tape-details",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_6KwdM8": {
+      "type": "featured-product",
+      "blocks": {
+        "text_t8H8nd": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_n3cDi8": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_3TiEik": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_Fbpq7R": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_Q7FphX": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_HTQCBf": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_ip8dgA": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_t8H8nd",
+        "title_n3cDi8",
+        "price_3TiEik",
+        "variant_picker_Fbpq7R",
+        "quantity_selector_Q7FphX",
+        "buy_buttons_HTQCBf",
+        "share_ip8dgA"
+      ],
+      "settings": {
+        "product": "vertical-striped-shirt",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_ftdntj": {
+      "type": "featured-product",
+      "blocks": {
+        "text_JbUt9D": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_yFAq8w": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_ghkw8G": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_UFTjD3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_XBnJcM": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_fepb6z": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_MPexhr": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_JbUt9D",
+        "title_yFAq8w",
+        "price_ghkw8G",
+        "variant_picker_UFTjD3",
+        "quantity_selector_XBnJcM",
+        "buy_buttons_fepb6z",
+        "share_MPexhr"
+      ],
+      "settings": {
+        "product": "checkered-shirt",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_AJyF3t": {
+      "type": "featured-product",
+      "blocks": {
+        "text_aWhcGi": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_WYGzqf": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_BrnCca": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_RdgzWD": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_LBNTDk": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_ALTWab": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_UEnr6F": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_aWhcGi",
+        "title_WYGzqf",
+        "price_BrnCca",
+        "variant_picker_RdgzWD",
+        "quantity_selector_LBNTDk",
+        "buy_buttons_ALTWab",
+        "share_UEnr6F"
+      ],
+      "settings": {
+        "product": "courage-graphic-t-shirt",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_JAGgWc": {
+      "type": "featured-product",
+      "blocks": {
+        "text_eaHJcG": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_E8irGn": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_xxkMh8": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_4m9pXU": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_bGTgxF": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_RP69ig": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_MQnfJb": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_eaHJcG",
+        "title_E8irGn",
+        "price_xxkMh8",
+        "variant_picker_4m9pXU",
+        "quantity_selector_bGTgxF",
+        "buy_buttons_RP69ig",
+        "share_MQnfJb"
+      ],
+      "settings": {
+        "product": "faded-skinny-jeans",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_KU9bCg": {
+      "type": "featured-product",
+      "blocks": {
+        "text_i4iwgj": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_cFMkEX": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_PRGL64": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_BiarFa": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_TLn8ad": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_iqc6EE": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_yMU3gN": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_i4iwgj",
+        "title_cFMkEX",
+        "price_PRGL64",
+        "variant_picker_BiarFa",
+        "quantity_selector_TLn8ad",
+        "buy_buttons_iqc6EE",
+        "share_yMU3gN"
+      ],
+      "settings": {
+        "product": "gradient-graphic-t-shirt",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_neyhhc": {
+      "type": "featured-product",
+      "blocks": {
+        "text_cpEDDp": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_RpLpaV": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_BV47Jt": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_Mzwz8i": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_aLmNUg": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_qELUym": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_WjdPpV": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_cpEDDp",
+        "title_RpLpaV",
+        "price_BV47Jt",
+        "variant_picker_Mzwz8i",
+        "quantity_selector_aLmNUg",
+        "buy_buttons_qELUym",
+        "share_WjdPpV"
+      ],
+      "settings": {
+        "product": "loose-fit-bermuda-shorts",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_kpitKq": {
+      "type": "featured-product",
+      "blocks": {
+        "text_GqNCdA": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_7m3Maw": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_tjQhmr": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_hVjX98": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_KfRNFb": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_4FPwzc": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_9BRYbf": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_GqNCdA",
+        "title_7m3Maw",
+        "price_tjQhmr",
+        "variant_picker_hVjX98",
+        "quantity_selector_KfRNFb",
+        "buy_buttons_4FPwzc",
+        "share_9BRYbf"
+      ],
+      "settings": {
+        "product": "one-life-graphic-t-shirt",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_cYFqD8": {
+      "type": "featured-product",
+      "blocks": {
+        "text_jRg9tB": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_h8ziKR": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_y8XVc8": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_4miPwD": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_LmicgR": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_dWF7AM": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_MGXQEH": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_jRg9tB",
+        "title_h8ziKR",
+        "price_y8XVc8",
+        "variant_picker_4miPwD",
+        "quantity_selector_LmicgR",
+        "buy_buttons_dWF7AM",
+        "share_MGXQEH"
+      ],
+      "settings": {
+        "product": "polo-with-contrast-trims",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_eVeWiX": {
+      "type": "featured-product",
+      "blocks": {
+        "text_nfKFdV": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_VygXhj": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_6iEg4q": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_GLzKKw": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_wm8YCR": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_iwCyWT": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_UhGgDC": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_nfKFdV",
+        "title_VygXhj",
+        "price_6iEg4q",
+        "variant_picker_GLzKKw",
+        "quantity_selector_wm8YCR",
+        "buy_buttons_iwCyWT",
+        "share_UhGgDC"
+      ],
+      "settings": {
+        "product": "polo-with-tipping-details",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_dykF37": {
+      "type": "featured-product",
+      "blocks": {
+        "text_Ky3tk3": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_Wyn3yj": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_BTdyDk": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_9f9d3J": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_GMVaDC": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_4Rn6AA": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_CtWBFY": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_Ky3tk3",
+        "title_Wyn3yj",
+        "price_BTdyDk",
+        "variant_picker_9f9d3J",
+        "quantity_selector_GMVaDC",
+        "buy_buttons_4Rn6AA",
+        "share_CtWBFY"
+      ],
+      "settings": {
+        "product": "skinny-fit-jeans",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_zJTiM4": {
+      "type": "featured-product",
+      "blocks": {
+        "text_Wd8NbM": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_UXtjGL": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_hDgckT": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_MfhLew": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_H8VytU": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_9cPcba": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_XTrhCr": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_Wd8NbM",
+        "title_UXtjGL",
+        "price_hDgckT",
+        "variant_picker_MfhLew",
+        "quantity_selector_H8VytU",
+        "buy_buttons_9cPcba",
+        "share_XTrhCr"
+      ],
+      "settings": {
+        "product": "sleeve-striped-t-shirt",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_hgCdpU": {
+      "type": "featured-product",
+      "blocks": {
+        "text_c6Eqck": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_L4TLWf": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_3EAGQJ": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_ErahWm": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_PQwMin": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_8tL7wd": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_A4kd3X": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_c6Eqck",
+        "title_L4TLWf",
+        "price_3EAGQJ",
+        "variant_picker_ErahWm",
+        "quantity_selector_PQwMin",
+        "buy_buttons_8tL7wd",
+        "share_A4kd3X"
+      ],
+      "settings": {
+        "product": "black-striped-t-shirt",
+        "color_scheme": "scheme-2",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "featured_product_gt7hKa",
+    "featured_product_6KwdM8",
+    "featured_product_ftdntj",
+    "featured_product_AJyF3t",
+    "featured_product_JAGgWc",
+    "featured_product_KU9bCg",
+    "featured_product_neyhhc",
+    "featured_product_kpitKq",
+    "featured_product_cYFqD8",
+    "featured_product_eVeWiX",
+    "featured_product_dykF37",
+    "featured_product_zJTiM4",
+    "featured_product_hgCdpU"
   ]
 }

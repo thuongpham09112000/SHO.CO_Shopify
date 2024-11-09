@@ -1,0 +1,131 @@
+.t-footer {
+  margin-top: 80.42px;
+}
+
+.t-footer .logo-icon {
+  font-size: 33.455px;
+  line-height: 23px;
+}
+
+.general-information {
+  background-color: var(--background-secondary-color);
+}
+
+.general-information p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.general-information h5 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.general-information ul li a {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.newsletter {
+  background: linear-gradient(
+    to bottom,
+    #ffffffff 50%,
+    rgba(240, 240, 240, 1) 50%
+  );
+}
+
+.newsletter .bg-newsletter {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.newsletter h5 {
+  max-width: 551px;
+  color: var(--text-secondary-color);
+  font-family: "Integral-CF-Bold";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  flex: 2 1 50%;
+  margin: 0;
+}
+
+.newsletter form {
+  padding: 36px 64px;
+}
+
+.newsletter form button {
+  font-weight: 500;
+  font-size: var(--size-1rem);
+  color: var(--text-color);
+  padding: 12px 16px;
+  border: none;
+}
+
+.newsletter form .form-control {
+  border: none;
+  margin-bottom: 14px;
+  padding: 12px 16px;
+}
+
+.newsletter form input:focus-visible {
+  outline: 0;
+}
+
+.newsletter form .enter-email {
+  min-width: 349px;
+}
+
+.general-information {
+}
+
+.general-information .container .row {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.general-information .container .text-muted {
+  margin-top: 25px;
+  margin-bottom: var(--size-1rem);
+  text-align: left;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.general-information .container .contact-information {
+  width: fit-content;
+  display: flex;
+  gap: 10px;
+  padding-top: 19px;
+}
+
+.general-information .container .text-uppercase {
+  margin-bottom: 0;
+  letter-spacing: 3px;
+}
+
+.general-information .container .nav .nav-link {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 10px 0;
+}
+
+.general-information .container .nav .nav-item:first-child {
+  margin-top: 16px;
+}
+
+.general-information .container .list-unstyled {
+  margin-top: 20px;
+  margin-bottom: 82px;
+}
+
+.general-information .container .list-unstyled li {
+  height: fit-content;
+  width: fit-content;
+}
+
+.general-information .container .list-unstyled img {
+  object-fit: cover;
+  width: 46.614px;
+  height: 30.03px;
+}

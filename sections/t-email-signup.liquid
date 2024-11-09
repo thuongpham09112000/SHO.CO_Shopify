@@ -1,0 +1,16 @@
+<div class="newsletter">
+    <div class="container">
+      <div class="bg-newsletter">
+        <form class="d-flex justify-content-between align-items-center flex-wrap">
+          <h5>{{ settings.footer_heading }}</h5>
+          <div class="enter-email d-flex flex-column justify-content-between">
+            <div class="form-control rounded-pill d-flex align-items-center">
+              <img src="{{ 'mail.svg' | asset_url }}" alt="mail">
+              <input type="text" style="border: none; width: 100%; margin-left: 12px;" placeholder="Enter your email address">
+            </div>
+            <button class="btn btn-light rounded-pill" type="button">{{ settings.subscribe_button_text }}</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>

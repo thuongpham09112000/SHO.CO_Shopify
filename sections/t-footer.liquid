@@ -1,0 +1,105 @@
+{{ 't-footer.css' | asset_url | stylesheet_tag }}
+  <div class="general-information">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-12 col-lg-3">
+          <div class="logo-icon"><span>shop.co</span></div>
+          <p class="text-muted">We have clothes that suit your style and which you’re proud to wear. From women to men.</p>
+          <div class="contact-information">
+            <a href="#">{{ section.settings.twitter_icon | image_url: width: 28 | image_tag }}</a>
+            <a href="#">{{ section.settings.facebook_icon | image_url: width: 28 | image_tag }}</a>
+            <a href="#">{{ section.settings.instagram_icon | image_url: width: 28 | image_tag }}</a>
+            <a href="#">{{ section.settings.git_icon | image_url: width: 28 | image_tag }}</a>
+          </div>          
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h5 class="text-uppercase">Company</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="#" class="nav-link p-0">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">Works</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">Career</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h5 class="text-uppercase">Help</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="#" class="nav-link p-0">Customer Support</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">Delivery Details</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">Terms & Conditions</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h5 class="text-uppercase">FAQ</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="#" class="nav-link p-0">Account</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">Manage Deliveries</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">Orders</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">Payments</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h5 class="text-uppercase">Resources</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a href="#" class="nav-link p-0">Free eBooks</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">Development Tutorial</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">How to - Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link p-0">Youtube Playlist</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between border-top">
+        <p class="text-muted">Shop.co © 2000-2023, All Rights Reserved</p>
+        <ul class="list-unstyled d-flex">
+          <li><a class="link-dark" href="#"><img src="{{ 'visa.svg' | asset_url }}" alt="visa"></a></li>
+          <li><a class="link-dark" href="#"><img src="{{ 'r-y.svg' | asset_url }}" alt="r-y-pay"></a></li>
+          <li><a class="link-dark" href="#"><img src="{{ 'pal-pay.svg' | asset_url }}" alt=""></a></li>
+          <li><a class="link-dark" href="#"><img src="{{ 'apple-pay.svg' | asset_url }}" alt="apple-pay"></a></li>
+          <li><a class="link-dark" href="#"><img src="{{ 'gg-pay.svg' | asset_url }}" alt="google-pay"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {% schema %}
+  {
+    "name": "Footer",
+    "class": "t-footer",
+    "settings": [
+      {
+        "type": "image_picker",
+        "label": "Twitter Icon",
+        "id": "twitter_icon"
+      },
+      {
+        "type": "image_picker",
+        "label": "Facebook Icon",
+        "id": "facebook_icon"
+      },
+      {
+        "type": "image_picker",
+        "label": "Instagram Icon",
+        "id": "instagram_icon"
+      },
+      {
+        "type": "image_picker",
+        "label": "Git Icon",
+        "id": "git_icon"
+      }
+    ],
+    "presets": [
+      {
+        "name": "t-Footer",
+        "category": "Footer"
+      }
+    ]
+  }
+  {% endschema %}
+  
+

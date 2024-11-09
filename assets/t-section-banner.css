@@ -124,3 +124,8 @@
   margin-bottom: 0;
   white-space: nowrap;
 }
+
+.t-banner .banner-small,
+.t-banner .stats-secondary {
+  display: none;
+}
