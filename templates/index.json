@@ -60,8 +60,7 @@
     },
     "t_brand_W4qVtg": {
       "type": "t-brand",
-      "settings": {
-      }
+      "settings": {}
     },
     "t_carousel_product_9XMd7F": {
       "type": "t-carousel-product",
@@ -78,7 +77,7 @@
       "settings": {
         "title": "<h1>top selling</h1>",
         "title_alignment": "center",
-        "collection": "top-selling",
+        "collection": "frontpage",
         "products_to_show": 16,
         "columns_to_show": 4
       }
