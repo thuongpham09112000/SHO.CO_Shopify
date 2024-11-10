@@ -91,8 +91,8 @@
         "padding_bottom": 36
       }
     },
-    "t_footer_fn6mPx": {
-      "type": "t-Footer",
+    "t_footer_hh44m7": {
+      "type": "t-footer",
       "settings": {
         "twitter_icon": "shopify://shop_images/twitter.png",
         "facebook_icon": "shopify://shop_images/facebook.png",
@@ -104,6 +104,6 @@
   "order": [
     "newsletter_GET8tj",
     "footer",
-    "t_footer_fn6mPx"
+    "t_footer_hh44m7"
   ]
 }
